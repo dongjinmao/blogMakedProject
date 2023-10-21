@@ -113,3 +113,8 @@ search:
   format: html
   limit: 1000
   
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: /images/loading.png
+
