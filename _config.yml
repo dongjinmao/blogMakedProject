@@ -4,9 +4,9 @@
 
 # Site
 title: 董金茂的学习笔记
-subtitle: ''
-description: just do it
-keywords:
+subtitle: 道阻且长，行则将至
+description: ''
+keywords: 
 author: 董金茂
 language: zh-CN
 timezone: ''
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,3 +105,11 @@ deploy:
   type: git
   repo: git@github.com:dongjinmao/dongjinmao.github.io.git
   branch: main
+  
+# Search Config
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 1000
+  
