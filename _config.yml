@@ -117,4 +117,35 @@ lazyload:
   enable: true
   onlypost: false
   loadingImg: /images/loading.png
+  
+symbols_count_time:
+  # 每篇文章显示
+  symbols: true
+  time: true
+  # 文章底部显示
+  total_symbols: false  
+  total_time: false
+  # 是否统计代码块
+  exclude_codeblock: false
+  awl: 2
+  wpm: 275
+  suffix: "mins."
+  
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-chitose
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  
 
